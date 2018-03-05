@@ -5,6 +5,8 @@
  */
 package Buscaminas;
 
+import java.util.Random;
+
 /**
  *
  * @author Estudiantes
@@ -19,6 +21,9 @@ public class Sembrador {
             for(Celda laCelda:laFila){
                 //rescata la  celda de la fila para que ponga un corazon
                 Corazon unCorazon=new Corazon();
+                
+                Random r= new Random();
+                int cualquierMina=r.nextInt(10)+1; 
                 laCelda.setMiCorazon(unCorazon);
             }
         }
@@ -27,5 +32,5 @@ public class Sembrador {
         
         
     }
-    
-}
+
+  
