@@ -31,6 +31,8 @@ public class Tablero {
             // colocar corazones en el tablero:: ir a sembrador
             Sembrador miTrabajador=new Sembrador();
             miTrabajador.sembrarCorazon(misCeldas,50);
+            
+            
         }
  
   }
