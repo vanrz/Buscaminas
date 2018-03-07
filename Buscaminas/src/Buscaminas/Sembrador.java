@@ -24,7 +24,13 @@ public class Sembrador {
                 
                 Random r= new Random();
                 int cualquierMina=r.nextInt(10)+1; 
+                if( r>5){
+                    
                 laCelda.setMiCorazon(unCorazon);
+                    }
+                else{
+                    laCelda.setMiCorazon(null);
+                    }
             }
         }
             
