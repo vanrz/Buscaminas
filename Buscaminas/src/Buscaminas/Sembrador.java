@@ -48,13 +48,16 @@ public class Sembrador {
                 
                 if(lasCeldas[fila+x][columna+y].getMiCorazon()!=null){
                     contador++;
+                    
+                    boolean casillaInvalida;
+                    
                     if(fila<=x){
-                        boolean casillaInvalida=true;
+                        casillaInvalida=true;
                         
                     
                     }
                     if (columna<y){
-                        boolean casillaInvalida=true;
+                        casillaInvalida=true;
                     }
                     
                 }
